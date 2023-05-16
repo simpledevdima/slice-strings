@@ -7,8 +7,8 @@ go get github.com/simpledevdima/slice-strings
 ```
 
 ## Functions
-- Chuck - Chunk splits an array into parts;
-- CountValues - counts the number of all slice values.
+- [Chuck](#Chuck) - Chunk splits an array into parts;
+- [CountValues](#CountValues) - counts the number of all slice values.
 
 
 ### Chuck
