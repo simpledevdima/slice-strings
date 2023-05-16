@@ -37,3 +37,13 @@ func Chunk(slice []string, length int, flags ...bool) ([][]string, error) {
 	}
 	return result, nil
 }
+
+// CountValues counts the number of all slice values.
+// Returns a map with indexes of slice values and values indicating the number of items found.
+func CountValues(slice []string) map[string]int {
+	result := make(map[string]int)
+	for _, item := range slice {
+		result[item]++
+	}
+	return result
+}
